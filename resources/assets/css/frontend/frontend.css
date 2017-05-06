@@ -1,0 +1,302 @@
+
+
+                body div#header /*Header*/
+                    {
+                        background-image:url("/resources/assets/images/Covering.jpg");
+                        background-repeat:no-repeat;
+                        height:120px;
+                    }
+
+                body div#container /*Container*/
+                    {
+                        font-family: Arial;
+                        font-size: 20px;
+                        margin-top: -70px;
+                        padding-left: 30px;
+
+                    }
+  
+
+                body div#header div.banner /*Banner*/
+                    {
+
+                        padding-left: 30px;
+                        padding-top:5px;
+                    	padding-bottom:10px;
+
+                    }
+   
+                div.tab /*Tab Position*/
+                    {
+                        overflow: hidden;
+                        border: 1px solid #ccc;
+                        background-color: #f1f1f1;
+                    }
+
+                
+                div.tab button /*Tab Button*/
+                    {
+                        background-color: inherit;
+                        float: left;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        padding: 10px 30px 10px 30px;
+                        font-size: 18px;
+                        
+                    }
+
+                    
+                    .tabcontent /*Tab Content*/
+                    {                       
+                        padding: 6px 12px;
+                        border: 1px solid #ccc;
+                        border-top: none;
+                        padding-left: 30px;
+                        padding-bottom: 65px;
+                        
+                    }
+
+                
+                    div.tab button:hover 
+                    {
+                        background-color: #ddd;
+                    }
+
+                
+                    div.tab button.active {
+                        background-color: #ccc;
+                    }
+                    .tf
+                    {
+                        background-image:url("/resources/flight.jpg");
+                        background-repeat:no-repeat;
+                    }
+
+                    .th
+                    {
+                        background-image:url("/resources/hotel.jpg");
+                        background-repeat:no-repeat;
+
+                    }
+
+                    .tc
+                    {
+                        background-image:url("/resources/car.jpg");
+                        background-repeat:no-repeat;
+                    }
+
+                    .tg
+                    {
+                        background-image:url("/resources/Tour.jpg");
+                        background-repeat:no-repeat;
+                    }
+
+                    .form-border /*Form borders*/
+                    {   
+                        
+                        padding: 14px 10px 14px 10px;
+                        border-radius: 4px;
+                        background-color:#e1e5e4;
+                    }  
+
+                     
+
+                    .button 
+                    {
+                          border-radius: 4px;
+                          background-color: #CB7A80;
+                          border: none;
+                          color: #FFFFFF;
+                          text-align: center;
+                          font-size: 20px;
+                          padding: 3px;
+                          transition: all 0.5s;
+                          cursor: pointer;
+
+                        }
+
+                    .button span 
+                    {
+                        cursor: pointer;
+                        display: inline-block;
+                        position: relative;
+                        transition: 0.5s;
+                    }
+
+                    .button span:after 
+                    {
+                        content: '\00bb';
+                        position: relative;
+                        opacity: 0;
+                        top: 0;
+                        right: -20px;
+                        transition: 0.5s;
+                    }
+
+                    .button:hover span 
+                    {
+                        padding-right: 25px;
+                    }
+
+                    .button:hover span:after
+                    {
+                        opacity: 1;
+                        right: 0;
+                    }
+
+                    .down /*Cover Photo Footer*/
+                    {
+                        background-image:url("/resources/assets/images/Maniladown.jpg");
+                        background-repeat:no-repeat;
+                    }
+
+
+                    .quick-access /*Menu Footer*/
+                    {
+                        padding-top: 45px;
+                        text-align: center;
+                        color: #000000;
+
+                    }
+
+                    .footer
+                    {
+                        background-color: lavander;
+                        text-align: center;
+                        font-size:10px;
+                        padding-bottom: 30px;
+                    }
+
+                    /* Slideshow container */
+
+                    * {box-sizing:border-box}
+                    .slideshow-container {
+                      max-width: 1000px;
+                      position: relative;
+                      margin: auto;
+                    }
+
+                    /* Fading animation */
+                    .fade {
+                      -webkit-animation-name: fade;
+                      -webkit-animation-duration: 1.5s;
+                      animation-name: fade;
+                      animation-duration: 1.5s;
+                    }
+
+                    @-webkit-keyframes fade {
+                      from {opacity: .4}
+                      to {opacity: 2}
+                    }
+
+                    @keyframes fade {
+                      from {opacity: .4}
+                      to {opacity: 2}
+                    }
+
+
+                    .input-login /*Login CSS*/
+                    {
+                        width: 100%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                    }
+
+                    .buttonl { 
+                        background-color: #CB7A80;
+                        color: white;
+                        padding: 14px 20px;
+                        margin: 8px 0;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        width: 100%;
+                    }
+
+                    .buttonl:hover {
+                        opacity: 0.8;
+                    }
+
+
+                    .imgcontainer-login {
+                        text-align: center;
+                        margin: 24px 0 12px 0;
+                        position: relative;
+                    }
+
+                    img.avatar {
+                        width: 40%;
+                        border-radius: 50%;
+                    }
+
+
+                    .container-login {
+                        font-family: arial;
+                        padding: 15px;
+                    }
+
+                    span.psw {
+                        float: right;
+                        padding-top: 16px;
+                    }
+
+
+                    .modal-login {
+                        display: none;
+                        position: fixed;
+                        z-index: 1;
+                        left: 0;
+                        top: 0;
+                        width: 100%; 
+                        height: 100%;
+                        overflow: auto;
+                        background-color: rgb(0,0,0);
+                        background-color: rgba(0,0,0,0.4);
+                        padding-top: 60px;
+                    }
+
+
+                    .modal-content-login {
+                        background-color: #fefefe;
+                        margin: 5% auto 5% auto;
+                        border-radius: 8px;
+                        width: 40%;
+                        padding: 5px 30px 30px 30px;
+                    }
+
+
+                    .close-login {
+                        position: absolute;
+                        right: 25px;
+                        top: 0;
+                        color: #000;
+                        font-size: 35px;
+                        font-weight: bold;
+                    }
+
+                    .close:hover,
+                    .close:focus {
+                        color: red;
+                        cursor: pointer;
+                    }
+
+
+                    .animate-login {
+                        -webkit-animation: animatezoom 0.6s;
+                        animation: animatezoom 0.6s
+                    }
+
+                    @-webkit-keyframes animatezoom {
+                        from {-webkit-transform: scale(0)} 
+                        to {-webkit-transform: scale(1)}
+                    }
+                        
+                    @keyframes animatezoom {
+                        from {transform: scale(0)} 
+                        to {transform: scale(1)}
+                    }
